@@ -76,7 +76,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   //fetch message from the server
-  const response = await  fetch('http://localhost:5001',{
+  const response = await  fetch('https://codeassist-alia.onrender.com',{
     method:'POST',
     headers:{
       'Content-Type': 'application/json'
